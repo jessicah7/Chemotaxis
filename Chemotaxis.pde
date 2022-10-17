@@ -6,7 +6,7 @@ int points = 5;
 void setup()   
 {     
   frameRate(15);
-  size(500,500);
+  size(700,500);
   background(79, 94, 126);
   for(int i = 0; i < bac.length; i++) {
     bac[i] = new Bacteria();
